@@ -24,17 +24,33 @@
 
 <p align="center" style="color:dodgerblue;"><strong>⚠️ This is a UI design mockup of what the platform will look like, it is not the current state of the project.</strong></p>
 
+## Table of contents
+
+- [Planned Features](#planned-features)
+- [Purpose](#purpose)
+- [Star History](#star-history)
+- [Contributors ✨](#contributors-)
+
 ## Planned Features
 
 - 📁 Module/Subject Management
+  - Allows students to organize their subjects. They can create, edit, and manage subjects to easily keep track of their academic curriculum.
 - 📒 Note taking
+  - Enables students to take digital notes and store them within the platform to easily access lecture notes.
 - 🗄️ Task Management
+  - Helps students keep track of assignments related to their courses to conveniently manage and prioritize academic tasks.
 - ✅ Assignment grade calculator
+  - Users can input their scores and weights, and the calculator will compute their overall assignment grades.
 - ⚡️ Flash cards
+  - Facilitate active learning by creating digital flashcards that help memorize key concepts.
 - 🤖 Powerful AI automations
+  - Enhance the student’s experience with the platform. These automations can include smart reminders, study recommendations, and personalized learning paths based on individual progress and performance.
 - 📆 Timetable
+  - Visual representation of their class schedule to help users keep track of class times, locations, and any changes to their academic calendar.
 - 📈 Insights
+  - Data-driven analysis of a student's academic performance via reports that enable students to gauge their progress and identify areas for improvement.
 - 🧠 Mind maps
+  - Support visual learning and brainstorming by visually connecting concepts related to their coursework.
 
 ## Purpose
 
