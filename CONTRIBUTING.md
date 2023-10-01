@@ -76,7 +76,10 @@ There are a lot of other technologies being used in this project, however these 
 
 ### Cloning the repo
 
-To clone the repo, you firstly need to [fork](https://github.com/ixahmedxi/noodle/fork) it, and then clone your copy of noodle locally.
+To clone the repo:
+- You firstly need to [fork](https://github.com/ixahmedxi/noodle/fork) it
+- Then, you open a Git command line application, such as Git Bash,
+- In the Git command line application, clone your copy of noodle locally using the following command:
 
 ```bash
 git clone https://github.com/<your-gh-username>/noodle.git
@@ -108,6 +111,10 @@ pnpm --version
 ```
 
 And make sure that the version is the same as the one defined in the root `package.json` file in the `volta` section.
+
+### Code editor
+- Open the repository’s folder in a code editor like Visual Studio Code with  ```code .```
+- Create a new Git branch and switch to it using the command ```git checkout -b <branch name>``` and work on that branch
 
 ### Environment Variables
 
@@ -154,11 +161,28 @@ pnpm lint
 
 # Format
 pnpm format:write
+
+# Test
+pnpm test
+
+## Add a dependency
+pnpm add <package name>
+
+# Update a dependency
+pnpm update
 ```
 
 Also, if in doubt and something is going wrong, `pnpm clean`.
 
 This is only a subset of the important commands that you will be using throughout your usage of Noodle's codebase. Be sure to check out [the package.json file](./package.json) for the full list and get familiar with [Nx's commands](https://nx.dev/reference/commands) for more complex use cases.
+
+## Saving changes
+
+- Once you are done with your changes, add and commit the changes locally using these commands:
+    - ```git add .```
+    - ```git commit -m”descriptive message"```
+- Then, push your local changes to your forked repository on GitHub using this command:
+    - ```git push```
 
 ## Closing notes
 
